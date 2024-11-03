@@ -1,0 +1,5 @@
+controllers:
+    api_questions:
+        path: /api/questions
+        controller: App\Controller\StackOverflowController::getQuestions
+        methods: GET
